@@ -293,7 +293,7 @@
   }
   .logo {
     text-align: center !important;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     float: inherit;
   }
   #main_slider .carousel-control-prev,
