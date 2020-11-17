@@ -330,7 +330,7 @@
     margin-top: 0;
   }
   .mean-last {
-    display: none;
+    /* display: none; */
   }
   .head-top {
     display: none;
