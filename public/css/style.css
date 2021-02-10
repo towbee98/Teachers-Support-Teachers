@@ -36,6 +36,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 99vw;
 }
 
 body {
@@ -1738,12 +1739,14 @@ input[type="radio"] .styled:checked+label::after {
   top: -180px;
 }
 
-.about .titlepage {
+.about .titlepage,
+.gallery {
   text-align: center;
   padding-bottom: 60px;
 }
 
-.about .titlepage h2 {
+.about .titlepage h2,
+.gallery {
   padding: 0px 0px 6px 0px;
   font-size: 40px;
   font-weight: bold;
@@ -1776,7 +1779,7 @@ input[type="radio"] .styled:checked+label::after {
   display: flex;
   justify-content: center;
   margin: 20px;
-  border: 1px solid #5c5454;
+  /* border: 1px solid #5c5454; */
 }
 
 .Events {
@@ -1867,6 +1870,7 @@ input[type="radio"] .styled:checked+label::after {
 .description {
   width: 400px;
 }
+
 
 /** end about section **/
 
@@ -2488,4 +2492,36 @@ ul.contant_icon li img {
   left: 10px;
   top: inherit;
   bottom: 10px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 1px 1px grey;
+}
+
+.story p {
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-container img {
+  background-color: green;
+  margin: 5px;
+
 }
